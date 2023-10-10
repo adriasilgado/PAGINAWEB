@@ -1,0 +1,20 @@
+body {
+    margin: 0%;
+}
+#logo {
+    background-color: #0A91AB;
+}
+img {
+    display: block;
+    width: 10%;
+    margin: auto;
+}
+#menu {
+    background-color: #FFC045;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#boton {
+
+}
