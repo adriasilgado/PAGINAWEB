@@ -251,6 +251,9 @@ footer {
     margin-top: 1%;
 }
 
+/*
+Contacte
+*/
 #containerContacte {
     display: flex;
     flex-direction: row;
@@ -301,6 +304,10 @@ b {
 #contacte {
     display: flex;
     flex-direction: column;
+}
+
+#formulari {
+    margin-left: 9%;
 }
 
 input{
