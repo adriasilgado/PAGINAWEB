@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     margin: 0%;
 }
@@ -161,7 +165,7 @@ button {
     border-radius: 22px;
     text-align: center;
     margin-top: 1%;
-    padding-bottom: 6px;
+    padding-bottom: 5px;
     margin-right: 1%
 }
 
@@ -228,6 +232,8 @@ footer {
 }
 
 #RS {
+    display: flex;
+    flex-direction: row;
     margin-left: 2%;
     width: 100%;
 }
@@ -256,6 +262,10 @@ footer {
     flex-direction: column;
 }
 
+#googleMaps {
+    margin: auto;
+}
+
 #adreca{
     display: flex;
     flex-direction: row;
@@ -265,7 +275,7 @@ footer {
 
 #imgUbicacio {
     width: 10%;
-    margin-left: 0%;
+    margin-left: 22%;
     margin-right: 0%;
 }
 
@@ -273,7 +283,7 @@ footer {
     display: flex;
     flex-direction: row;
     margin-top: 1%;
-    margin-left: 1%;
+    margin-left: 25%;
 }
 
 #imgTelefon {
@@ -289,4 +299,20 @@ b {
 }
 
 #contacte {
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 85%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+input[type="envio"]{
+    width: 80px;
+    background-color: #139ed8;
+    color: white;
+    cursor: pointer;
+    float: left;
 }
